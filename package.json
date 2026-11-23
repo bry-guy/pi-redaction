@@ -1,0 +1,15 @@
+{
+  "name": "@bry-guy/pi-redaction",
+  "version": "0.1.0",
+  "description": "Best-effort secret redaction for pi: keeps secret values in tool output out of the transcript and model requests, in every session.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["pi-package", "pi-extension", "secrets", "redaction"],
+  "repository": { "type": "git", "url": "git+https://github.com/bry-guy/pi-redaction.git" },
+  "homepage": "https://github.com/bry-guy/pi-redaction#readme",
+  "bugs": "https://github.com/bry-guy/pi-redaction/issues",
+  "files": ["src", "README.md"],
+  "pi": { "extensions": ["./src/extension.ts"] },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*" },
+  "scripts": { "test": "node --test test/*.test.ts" }
+}
