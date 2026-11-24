@@ -5,6 +5,8 @@ or without a project or role), secret values in tool output are replaced by `[re
 transcript or the model.
 
 ```sh
+pi install npm:@bry-guy/pi-redaction
+# or from git:
 pi install git:github.com/bry-guy/pi-redaction
 ```
 

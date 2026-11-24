@@ -8,7 +8,7 @@
   "repository": { "type": "git", "url": "git+https://github.com/bry-guy/pi-redaction.git" },
   "homepage": "https://github.com/bry-guy/pi-redaction#readme",
   "bugs": "https://github.com/bry-guy/pi-redaction/issues",
-  "files": ["src", "README.md"],
+  "files": ["src", "README.md", "LICENSE"],
   "pi": { "extensions": ["./src/extension.ts"] },
   "peerDependencies": { "@earendil-works/pi-coding-agent": "*" },
   "scripts": { "test": "node --test test/*.test.ts" }
